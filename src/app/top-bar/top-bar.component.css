@@ -1,0 +1,72 @@
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #006a00;
+}
+
+button {
+    mix-blend-mode: difference;
+}
+
+.page-title {
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    transform: translate(0, -70vh);
+    font-size: 100px !important;
+    text-align: center;
+    text-shadow: #616161;
+}
+
+.mat-drawer-content {
+    z-index: 0 !important;
+}
+
+#page-title-arrow {
+    color: rgba(255,255,255,0.45);
+    display: block;
+    width: 100%;
+    transform: translate(0, 30vh);
+    font-size: 70px !important;
+    text-align: center;
+}
+
+.arrow-button {
+    color: rgba(255,255,255,0.45);
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 50vh;
+    transform: translate(0, -60vh);
+    font-size: 70px !important;
+    text-align: center;
+}
+
+.my-name {
+    color: whitesmoke;
+    font-family: Ubuntu, sans-serif;
+    padding: 0 40px;
+    font-size: 40px;
+}
+
+.navItems, mat-nav-list {
+    color: whitesmoke !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

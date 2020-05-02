@@ -1,0 +1,24 @@
+<div #target fxLayout.xs="column" fxLayout="row wrap" fxLayoutAlign="start stretch" fxLayoutGap="10px" ngClass.gt-xs="ml-10">
+
+  <mat-card *ngFor="let project of projects" fxLayout="column" fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(25%-10px)">
+    <mat-card-title>
+      <h3>{{ project.name }}</h3>
+      <p *ngIf="project.language" class="code-lang">{{ project.language }}</p>
+    </mat-card-title>
+    <a [href]="project.link" target="_blank">
+      <img mat-card-image [src]="project.image" class="image"/>
+    </a>
+    <mat-card-content fxFlex>
+      <p>{{ project.description }}</p>
+    </mat-card-content>
+    <mat-card-actions fxFlexAlign="end" align="end">
+      <button class="button" (click)="goToUrl(project.link)">Details</button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

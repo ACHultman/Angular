@@ -38,7 +38,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "baseHref": "/",
+              "baseHref": "/Angular",
               "deployUrl": "https://achultman.github.io/angular",
               "extractCss": true,
               "namedChunks": false,
